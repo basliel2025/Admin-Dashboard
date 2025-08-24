@@ -203,6 +203,9 @@
   .article .sign{
     justify-self: end;
   }
+  .article .sign i{
+    padding-right:12px;
+  }
  .trending{
     display: grid;
     grid-template-columns: 1fr;
@@ -228,6 +231,7 @@
  }
  .side div{
     padding: 20px;
+    border-bottom: 1px solid grey;
  }
  .aside {
     display: grid;
