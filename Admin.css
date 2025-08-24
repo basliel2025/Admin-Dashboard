@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 4px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+    grid-template-rows: 80px 80px;
+    align-items: center;
+    padding: 10px;
+}
+input{
+    margin-left: 10px;
+    width: 450px;
+    height: 25px;
+    background-color: rgb(207, 207, 211);
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.searches{
+    display: grid;
+    align-self: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.searches input{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+.searches .mdi{
+    display: grid;
+    align-self: center;
+    font-size: 25px;
+    gap: 10px;
+    color: red;
+    
+} 
+.menu{
+    display: grid;
+    grid-column: 2/3;
+}
+.header button{
+    display: grid;
+    justify-content: space-around;
+}
+button{
+    background-color: rgb(77, 173, 252);
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: grid;
+    align-items: center;
+    margin: 10px;
+}
+.sidebar{
+   background-color: rgb(57, 164, 252);
+   display: grid;
+   grid-template-rows: 100px 250px 1fr;
+   grid-row: 1/3;
+   align-items: center;
+   padding-left: 30px; 
+   color:white;
+   font-weight: 800;
+   font-size: 20px;
+}
+.sidebar > .top{
+  display: grid;
+}
+.dash{
+    display: grid;
+    align-self: center;
+}
+.top{
+    display: grid;
+    gap : 20px;
+}
+.below{
+    display: grid;
+    align-self: start;
+    padding-top: 40px;
+    gap: 15px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.nav ul, li{
+    list-style: none;
+    display: grid;
+}
+.nav li{
+    display: grid;
+    grid-row:1;
+}
+
+
+.article{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column: 2/3;
+}
