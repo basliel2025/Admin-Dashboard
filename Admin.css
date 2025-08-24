@@ -54,6 +54,7 @@
     width: 100px;
     height: 100px;
     border-radius: 80px;
+    cursor: pointer;
   }
   
   .user-profile {
@@ -93,6 +94,7 @@
     width: 80px;
     height: 80px;
     border-radius: 80px;
+    cursor: pointer;
   }
   
   .small-logo p {
@@ -135,6 +137,11 @@
     align-items: center;
     margin: 10px;
   }
+  button:hover{
+    background-color: steelblue;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
   
   .sidebar {
     background-color: rgb(57, 164, 252);
@@ -144,6 +151,9 @@
     padding: 20px;
     color: white;
     gap: 20px;
+  }
+  .sidebar p{
+    cursor: pointer;
   }
   
   .sidebar > .top {
@@ -220,6 +230,7 @@
     grid-template-columns: 50px 1fr;
     align-items: center;
     gap: 10px;
+    cursor:pointer;
  }
  
 .image {
