@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Admin.css"
-    <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="container">
   <div class="header" >
-    <div class="search">
-        <i class="mdi mdi-magnify" aria-hidden="true"></i> 
+    <div class="searches">
+        <span class="mdi mdi-magnify" aria-hidden="true"></span> 
+        <input id="search" name="search" >
     </div>
     <div class="small-logo">
         <i class="mdi mdi-bell-outline" aria-hidden="true"></i> 
+        <img src="C:\Users\User\Downloads\ChatGPT Image Aug 24, 2025, 08_17_53 AM.png" alt="Morgan Oakley" class="side-avatar" />
+        <p>Morgan Oakley</p>
     </div>
-    <div class="logo"></div>
+    <div class="logo">
+        <div class="user-profile">
+            <img src="C:\Users\User\Downloads\ChatGPT Image Aug 24, 2025, 08_17_53 AM.png" alt="Morgan Oakley" class="avatar" />
+            <p class="hi">Hi there.</p>
+            <span class="username">Morgan Oakley(@morgan)</span>
+          </div>
+    </div>
     <div class="menu">
        <button>New</button>
        <button>Upload</button>
@@ -24,13 +32,17 @@
     </div>
   </div> 
   <div class="sidebar">
+    <div class="dash">
     <p><i class="mdi mdi-view-dashboard" aria-hidden="true"></i> Dashboard</p>
+    </div>
+    <div class="top">
     <p><i class="mdi mdi-home" aria-hidden="true"></i> Home</p>
     <p><i class="mdi mdi-account" aria-hidden="true"></i> Profile</p>
     <p><i class="mdi mdi-message-text-outline" aria-hidden="true"></i> Message</p>
     <p><i class="mdi mdi-history" aria-hidden="true"></i> History</p>
     <p><i class="mdi mdi-check-circle-outline" aria-hidden="true"></i> Task</p>
     <p><i class="mdi mdi-account-group-outline" aria-hidden="true"></i> Community</p>
+    </div>
     <div class="below">
       <p><i class="mdi mdi-cog-outline" aria-hidden="true"></i> Settings</p>
       <p><i class="mdi mdi-lifebuoy" aria-hidden="true"></i> Support</p>
