@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="Admin.css"
+    <link rel="stylesheet" href="Admin.css">
 </head>
 <body>
     <div class="container">
+        <div class="sidebar">
+            <div class="dash">
+            <p><i class="mdi mdi-view-dashboard" aria-hidden="true"></i> Dashboard</p>
+            </div>
+            <div class="top">
+            <p><i class="mdi mdi-home" aria-hidden="true"></i> Home</p>
+            <p><i class="mdi mdi-account" aria-hidden="true"></i> Profile</p>
+            <p><i class="mdi mdi-message-text-outline" aria-hidden="true"></i> Message</p>
+            <p><i class="mdi mdi-history" aria-hidden="true"></i> History</p>
+            <p><i class="mdi mdi-check-circle-outline" aria-hidden="true"></i> Task</p>
+            <p><i class="mdi mdi-account-group-outline" aria-hidden="true"></i> Community</p>
+            </div>
+            <div class="below">
+              <p><i class="mdi mdi-cog-outline" aria-hidden="true"></i> Settings</p>
+              <p><i class="mdi mdi-lifebuoy" aria-hidden="true"></i> Support</p>
+              <p><i class="mdi mdi-lock-outline" aria-hidden="true"></i> Privacy</p>
+            </div>
+          </div>
   <div class="header" >
     <div class="searches">
         <span class="mdi mdi-magnify" aria-hidden="true"></span> 
@@ -31,27 +49,8 @@
        <button>Share</button>
     </div>
   </div> 
-  <div class="sidebar">
-    <div class="dash">
-    <p><i class="mdi mdi-view-dashboard" aria-hidden="true"></i> Dashboard</p>
-    </div>
-    <div class="top">
-    <p><i class="mdi mdi-home" aria-hidden="true"></i> Home</p>
-    <p><i class="mdi mdi-account" aria-hidden="true"></i> Profile</p>
-    <p><i class="mdi mdi-message-text-outline" aria-hidden="true"></i> Message</p>
-    <p><i class="mdi mdi-history" aria-hidden="true"></i> History</p>
-    <p><i class="mdi mdi-check-circle-outline" aria-hidden="true"></i> Task</p>
-    <p><i class="mdi mdi-account-group-outline" aria-hidden="true"></i> Community</p>
-    </div>
-    <div class="below">
-      <p><i class="mdi mdi-cog-outline" aria-hidden="true"></i> Settings</p>
-      <p><i class="mdi mdi-lifebuoy" aria-hidden="true"></i> Support</p>
-      <p><i class="mdi mdi-lock-outline" aria-hidden="true"></i> Privacy</p>
-    </div>
-  </div>
-        <h1 class="tn">Your projects</h1>
-
-
+  <div class="main">
+        <h2 class="tn">Your projects</h2>
   <div class="article">
     <div class="card">
         <p class="title">Super Cool Project</p>
@@ -83,12 +82,13 @@
         <p>Praesent convallis, libero quis congue <br>elementum, nunc ante faucibus sapien, ac<br> scelerisque tortor purus sit amet ex.<br> pellentesque mollis nec sem vel aliquam.</p>
         <p class="sign"><i class="mdi mdi-star-plus" aria-hidden="true"></i> <i class="mdi mdi-eye-plus-outline" aria-hidden="true"></i> <i class="mdi mdi-source-fork" aria-hidden="true"></i> </p>
     </div>
+    </div>
     <div class="side">
-        <div> Site Maintenance</div>
+        <div> <strong>Site Maintenance</strong></div>
             <p>Vestibulum condimentum tellus lacus, <br> in accumsan elit maximus ac. Donec<br> hendrerit sodales congue...</p>
-            <div> Community Share Day</div>
+            <div> <strong>Community Share Day</strong></div>
             <p>Nam vel lectus tincidunt, rutrum nulla<br>eu, ornare libero. Aliquam dictum<br> accumsan porttitor...</p>
-            <div> Update Pirvacy Policy</div>
+            <div> <strong>Update Pirvacy Policy</strong></div>
             <p>Phasellus efficitur nisi eget elit  <br> consectrtur, eget condimentum ante<br> auctor. Cras fringilla sagittis sem in <br> mattis...</p> 
     </div>
     <div class="trending">
@@ -101,8 +101,6 @@
         <div>@alex</div>
         <p>No Traffic Maker</p>
     </div>
-  </div>
-  <div class="footer">
   </div>
   </div>
 </body>
